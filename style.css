@@ -1,0 +1,380 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Header Sectiom*/
+
+header{
+    /*height: 200px;*/
+}
+
+.header-image{
+    width:100% ;
+    height: 100%;
+
+}
+
+.navlist li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   padding: 50px 70px;
+   
+}
+
+.navlist{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.navlist a{
+    color: black;
+}
+
+.navitem{
+   text-align: center;
+   margin-right: 40px;
+}
+
+.navgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    margin-left: 150px;
+}
+
+.navgroup button{
+    background-color: green;
+    border: none;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: black;
+    width: 200px;
+    height: 50px;
+}
+
+.navgroup button a{
+    color: white;
+    font-size: 20px;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+}
+
+/*image and text overlaying*/
+.image-container img{
+    width: 100%;
+    height: 600px;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 60%; /* adjust as needed */
+    left: 20%; /* adjust as needed */
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    z-index: 1; /* higher value to bring the text above the image */
+}
+/*image and text overlaying*/
+
+.header-text1{
+    font: bolder;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-text2{
+    font: caption;
+    font-size: 19px;
+    font-style: inherit;
+}
+
+/*header button*/
+.image-container button{
+    background-color: green;
+    border: none;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    left: 20%;
+
+}
+
+.image-container button a{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/*About us page*/
+
+.about-us{
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-right: 80px;
+    margin-left: 100px;
+    margin-top: 50px;
+    gap: 100px;
+   
+}
+
+ img{
+    cursor: url("/path"),auto;
+}
+
+/*Zoom*/
+ .about-us img:hover{
+    transform: scale(1.1);
+}
+
+.about-text{
+    justify-content: center;
+    gap: 50px;  
+    width: 40%;
+}
+
+.goal-text{
+    color: black;
+    font-size: 60px;
+
+}
+
+.goal-text2{
+    color: green;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*Our project section*/
+
+.our-project{
+    margin-top: 80px;
+    margin-left: 100px;
+    /*margin-right: 100px;*/
+    border: white;
+    gap: 80px
+    ;
+    
+}
+
+.our-project-images{
+    display: flex;
+   /* justify-content: space-between;*/
+   gap: 50px;
+   margin-left: 120px;
+}
+
+.project-text{
+    gap: 50px;
+    margin-left: 120px;
+}
+
+.our-project h3{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.our-project h1{
+    color: black;
+    font-size: 60px;
+
+}
+
+
+/*laying text over the img for image-container1*/
+.image-container1{
+    width: 400px;
+}
+.image-container1 img{
+    width: 400px;
+    
+}
+
+.text-overlay1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 110px;
+    padding-left: 400px;
+    z-index: 2; /* higher value to bring the text above the image */
+}
+
+.text-overlay1 h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*laying text over the img for image-container2*/
+.image-container2{
+    width: 400px;
+}
+.image-container2 img{
+    width: 400px;
+    
+}
+
+.text-overlay2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 110px;
+    padding-left: 400px;
+    z-index: 2; /* higher value to bring the text above the image */
+}
+
+.text-overlay2 h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*laying text over the img for image-container3*/
+.image-container3{
+    width: 400px;
+}
+.image-container3 img{
+    width: 400px;
+    
+}
+
+.text-overlay3{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 110px;
+    padding-left: 300px;
+    z-index: 2; /* higher value to bring the text above the image */
+}
+
+.text-overlay3 h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+
+/*About us button*/
+
+.about-us-button{
+    display: flex;
+    margin-left: 120px;
+    gap: 100px;
+    margin-top: 30px;
+
+}
+
+.about-us-button button{
+    background-color: green;
+    border: none;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: black;
+    width: 300px;
+    height: 50px;
+}
+
+.about-us-button button a{
+    color: white;
+    font-size: 20px;
+}
+
+.our-project-images img:hover{
+    transform: scale(1.1);
+}
+
+/* The footer part form area*/
+.form{
+    width: 100%;
+    height: 550px;
+    background-color:rgb(244, 236, 236);
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.form-area{
+    padding: 50px 120px 50px 120px;
+    gap: 50px;
+}
+
+.form-area h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+.form-area input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    gap: 50px;
+    font-size: 20px;
+    caret-color: green;
+}
+
+.form-area textarea{
+    width: 100%;
+    height: 200px;
+    caret-color: green;
+    font-size: 20px;
+    border: none;
+}
+
+/* Footer section*/
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: green;
+    /*display: flex;*/
+    /*display: inline-flex;*/
+    
+}
+
+.footer-content{
+    display: flex;
+   justify-content: space-between;
+   padding: 50px 70px;
+
+}
+
+.footer-image{
+    padding-right: 200px;
+    padding-top: 5px;
+}
